@@ -32,7 +32,6 @@ export function TravelLandingView() {
     <>
       <Box component="section" sx={{ position: 'relative' }}>
         <TravelLandingHero tours={heroTours} />
-
         <Container
           sx={(theme) => ({
             pt: 3,
@@ -56,7 +55,6 @@ export function TravelLandingView() {
               [`& .${inputBaseClasses.input}`]: {
                 color: { md: 'common.white' },
               },
-              display: 'none',
             }}
           />
         </Container>

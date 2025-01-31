@@ -120,9 +120,8 @@ function CarouselItem({ tour, sx, ...other }: CarouselItemProps) {
           zIndex: 8,
           content: "''",
           position: 'absolute',
-          backgroundImage: `linear-gradient(to bottom, ${varAlpha(theme.vars.palette.common.blackChannel, 0)} 0%, ${
-            theme.vars.palette.common.black
-          } 75%)`,
+          backgroundImage: `linear-gradient(to bottom, ${varAlpha(theme.vars.palette.common.blackChannel, 0)} 0%, ${theme.vars.palette.common.black
+            } 75%)`,
         },
         [theme.breakpoints.up('md')]: {
           minHeight: 760,

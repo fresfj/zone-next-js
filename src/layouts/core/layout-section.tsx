@@ -43,9 +43,8 @@ export function LayoutSection({
   return (
     <>
       {inputGlobalStyles}
-
       <Box id="root__layout" className={layoutClasses.root} sx={sx}>
-        {headerSection}
+        {/* {headerSection} */}
         {children}
         {footerSection}
       </Box>
